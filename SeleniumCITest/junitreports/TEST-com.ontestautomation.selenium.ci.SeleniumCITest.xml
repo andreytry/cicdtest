@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="LAPTOP-7OFFTBLN" name="com.ontestautomation.selenium.ci.SeleniumCITest" skipped="0" tests="1" time="6.827" timestamp="2018-03-31T18:49:32">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/successfulLoginLogout/default/34/display/redirect" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-7OFFTBLN" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="483fe7cbbd2a9ef8" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\resources.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\rt.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\jsse.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\jce.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\charsets.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\jfr.jar;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\classes" />
+    <property name="env.COMPUTERNAME" value="LAPTOP-7OFFTBLN" />
+    <property name="env.JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/successfulLoginLogout/default/display/redirect" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#34" />
+    <property name="env.HOMEPATH" value="\Users\Preload PC" />
+    <property name="user.name" value="Preload PC" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="SeleniumCITest" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="env.TEMP" value="C:\Users\PRELOA~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.JOB_BASE_NAME" value="default" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="GB" />
+    <property name="env.BUILD_NUMBER" value="34" />
+    <property name="java.home" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\Preload PC\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.configsetroot" value="C:\Windows\ConfigSetRoot" />
+    <property name="env.HUDSON_COOKIE" value="250e82ee-b697-4c49-ac7f-d95be06ee49e" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Preload PC" />
+    <property name="ant.library.dir" value="C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib" />
+    <property name="junit.output.dir" value="junitreports" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/successfulLoginLogout/default/34/display/redirect?page=changes" />
+    <property name="env.JOB_NAME" value="successfulLoginLogout/default" />
+    <property name="env.JAVA_HOME" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\PRELOA~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.BUILD_TAG" value="jenkins-successfulLoginLogout-default-34" />
+    <property name="target" value="1.8" />
+    <property name="user.home" value="C:\Users\Preload PC" />
+    <property name="env.JENKINS_HOME" value="C:\Users\Preload PC\.jenkins" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3/bin;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3/bin;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Preload PC\AppData\Local\Microsoft\WindowsApps;C:\PRPC73\PRPCPersonalEdition\jre1.8.0_121\bin;C:\Users\Preload PC\Documents\Data\Soft\wildfly-11.0.0.Final\wildfly-11.0.0.Final\bin;C:\Users\Preload PC\Documents\Data\Soft\FirefoxPortable;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.HUDSON_HOME" value="C:\Users\Preload PC\.jenkins" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="483fe7cbbd2a9ef8" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.3 compiled on March 24 2018" />
+    <property name="java.class.path" value="C:\Users\Preload PC\.p2\pool\plugins\org.testng_6.14.2.r201802161450.jar;C:\Users\Preload PC\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar;C:\Users\Preload PC\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar;C:\Users\Preload PC\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\ant-junit4.jar;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\ant-junit.jar;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\junit.jar;C:\Users\Preload PC\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Preload PC\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\bin;C:\Users\Preload PC\Documents\Data\Soft\Selenium\selenium-java-3.11.0.zip;C:\Users\Preload PC\Documents\Data\Soft\Selenium\selenium-server-standalone-3.11.0.jar;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\ant-launcher.jar;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\ant.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ontestautomation.selenium.ci.SeleniumCITest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\junitreports\TEST-com.ontestautomation.selenium.ci.SeleniumCITest.xml crashfile=C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\junitvmwatcher1392036680919124312.properties propsfile=C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\junit7112592998513585347.properties" />
+    <property name="env.EXECUTOR_NUMBER" value="1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="ant.file.SeleniumCITest" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest\build.xml" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\LAPTOP-7OFFTBLN" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.OneDrive" value="C:\Users\Preload PC\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3" />
+    <property name="java.io.tmpdir" value="C:\Users\PRELOA~1\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="8e09" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" -file build.xml SeleniumCITest" />
+    <property name="java.ext.dirs" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.BUILD_ID" value="34" />
+    <property name="user.dir" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Preload PC\AppData\Local" />
+    <property name="env.ARTIFACTORY_HOME" value="C:\artifactory-oss-5.8.0\" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="ant.file.type.SeleniumCITest" value="file" />
+    <property name="env.Path" value="C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3/bin;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3/bin;C:\Users\Preload PC\Documents\Data\Soft\PRPC\PRPC73\PRPC73\jdk1.8.0_121/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Preload PC\AppData\Local\Microsoft\WindowsApps;C:\PRPC73\PRPCPersonalEdition\jre1.8.0_121\bin;C:\Users\Preload PC\Documents\Data\Soft\wildfly-11.0.0.Final\wildfly-11.0.0.Final\bin;C:\Users\Preload PC\Documents\Data\Soft\FirefoxPortable;" />
+    <property name="basedir" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Preload PC\Documents\Data\Soft\ant\apache-ant-1.10.3\lib\ant.jar" />
+    <property name="env.USERNAME" value="Preload PC" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.WORKSPACE" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest" />
+    <property name="env.USERDOMAIN" value="LAPTOP-7OFFTBLN" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\Preload PC\eclipse-workspace\SeleniumCITest" />
+    <property name="ant.project.invoked-targets" value="SeleniumCITest" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="0.605">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[ParaBank | Welcome | Online Banking]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[]&gt; but was:&lt;[ParaBank | Welcome | Online Banking]&gt;
+	at com.ontestautomation.selenium.ci.SeleniumCITest.successfulLoginLogout(SeleniumCITest.java:27)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1522522172924	geckodriver	INFO	geckodriver 0.20.0
+1522522172936	geckodriver	INFO	Listening on 127.0.0.1:6696
+1522522173963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\PRELOA~1\\AppData\\Local\\Temp\\rust_mozprofile.fiRd4DiNphSQ"
+Unable to read VR Path Registry from C:\Users\Preload PC\AppData\Local\openvr\openvrpaths.vrpath
+1522522174592	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Preload PC\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Preload PC\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Preload PC\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Preload PC\AppData\Local\openvr\openvrpaths.vrpath
+1522522176708	Marionette	INFO	Listening on port 56948
+1522522177106	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2018 8:49:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 9596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9596,[Parent 19400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6372, Chrome_ChildThread] WARNING: [Parent 19400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1522522178835	geckodriver::marionette	ERROR	Failed to stop browser process
+]]></system-err>
+</testsuite>

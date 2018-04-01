@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SeleniumCITest">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <property name="junit.output.dir" value="junitreports"/>              	
+    <path id="TestNG.libraryclasspath">
+        <pathelement location="../../.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar"/>
+        <pathelement location="../../.p2/pool/plugins/com.beust.jcommander_1.72.0.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar"/>
+    </path>
+  	<path id="JUnit4.libraryclasspath">
+        <pathelement location="../../Documents/Data/Soft/ant/apache-ant-1.10.3/lib/ant-junit4.jar"/>
+        <pathelement location="../../Documents/Data/Soft/ant/apache-ant-1.10.3/lib/ant-junit.jar"/>
+        <pathelement location="../../Documents/Data/Soft/ant/apache-ant-1.10.3/lib/junit.jar"/>
+    	<pathelement location="../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    	<pathelement location="../../.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+  	</path>              	
+    <path id="SeleniumCITest.classpath">
+        <path refid="TestNG.libraryclasspath"/>
+        <path refid="JUnit4.libraryclasspath"/>
+        <pathelement location="bin"/>
+        <pathelement location="../../Documents/Data/Soft/Selenium/selenium-java-3.11.0.zip"/>
+        <pathelement location="../../Documents/Data/Soft/Selenium/selenium-server-standalone-3.11.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="SeleniumCITest.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+  	<target name="SeleniumCITest">
+  	    <mkdir dir="${junit.output.dir}"/>
+  	    <junit fork="yes" printsummary="withOutAndErr">
+  	    	<formatter type="xml"/>
+  	        <test name="com.ontestautomation.selenium.ci.SeleniumCITest" todir="${junit.output.dir}"/>
+  	        <classpath refid="SeleniumCITest.classpath"/>
+  	    </junit>
+  	</target>
+  	<target name="junitreport">
+  	    <junitreport todir="${junit.output.dir}">
+  	        <fileset dir="${junit.output.dir}">
+  	            <include name="TEST-*.xml"/>
+  	        </fileset>
+  	        <report format="frames" todir="${junit.output.dir}"/>
+  	    </junitreport>
+  	</target>              	
+</project>
