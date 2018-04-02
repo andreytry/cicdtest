@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6703" started-at="2018-04-02T10:26:14Z" finished-at="2018-04-02T10:26:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6703" started-at="2018-04-02T10:26:14Z" finished-at="2018-04-02T10:26:21Z">
+      <class name="cicduitest.SITUserLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cicduitest.SITUserLogin@27efef64]" name="setup" is-config="true" duration-ms="3385" started-at="2018-04-02T10:26:14Z" finished-at="2018-04-02T10:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLoginLogout()[pri:0, instance:cicduitest.SITUserLogin@27efef64]" name="successfulLoginLogout" duration-ms="2280" started-at="2018-04-02T10:26:18Z" finished-at="2018-04-02T10:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:cicduitest.SITUserLogin@27efef64]" name="teardown" is-config="true" duration-ms="1007" started-at="2018-04-02T10:26:20Z" finished-at="2018-04-02T10:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- cicduitest.SITUserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
