@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7138" started-at="2018-04-02T14:02:19Z" finished-at="2018-04-02T14:02:27Z">
+  <suite name="Suite" duration-ms="8135" started-at="2018-05-12T08:38:10Z" finished-at="2018-05-12T08:38:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7138" started-at="2018-04-02T14:02:19Z" finished-at="2018-04-02T14:02:27Z">
+    <test name="Test" duration-ms="8135" started-at="2018-05-12T08:38:10Z" finished-at="2018-05-12T08:38:18Z">
       <class name="cicduitest.SITUserLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:cicduitest.SITUserLogin@2ed94a8b]" name="setup" is-config="true" duration-ms="3618" started-at="2018-04-02T14:02:19Z" finished-at="2018-04-02T14:02:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cicduitest.SITUserLogin@73f792cf]" name="setup" is-config="true" duration-ms="3700" started-at="2018-05-12T08:38:10Z" finished-at="2018-05-12T08:38:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="successfulLoginLogout()[pri:0, instance:cicduitest.SITUserLogin@2ed94a8b]" name="successfulLoginLogout" duration-ms="2389" started-at="2018-04-02T14:02:23Z" finished-at="2018-04-02T14:02:25Z">
+        <test-method status="PASS" signature="successfulLoginLogout()[pri:0, instance:cicduitest.SITUserLogin@73f792cf]" name="successfulLoginLogout" duration-ms="3330" started-at="2018-05-12T08:38:14Z" finished-at="2018-05-12T08:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLoginLogout -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:cicduitest.SITUserLogin@2ed94a8b]" name="teardown" is-config="true" duration-ms="1108" started-at="2018-04-02T14:02:25Z" finished-at="2018-04-02T14:02:27Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:cicduitest.SITUserLogin@73f792cf]" name="teardown" is-config="true" duration-ms="1064" started-at="2018-05-12T08:38:17Z" finished-at="2018-05-12T08:38:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

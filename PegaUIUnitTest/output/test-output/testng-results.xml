@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8203" started-at="2018-05-12T14:13:50Z" finished-at="2018-05-12T14:13:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8203" started-at="2018-05-12T14:13:50Z" finished-at="2018-05-12T14:13:58Z">
+      <class name="pega.ui.unittest.headless.UserLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:pega.ui.unittest.headless.UserLogin@475530b9]" name="setup" is-config="true" duration-ms="4072" started-at="2018-05-12T14:13:50Z" finished-at="2018-05-12T14:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLoginLogout()[pri:0, instance:pega.ui.unittest.headless.UserLogin@475530b9]" name="successfulLoginLogout" duration-ms="4110" started-at="2018-05-12T14:13:54Z" finished-at="2018-05-12T14:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:pega.ui.unittest.headless.UserLogin@475530b9]" name="teardown" is-config="true" duration-ms="2" started-at="2018-05-12T14:13:58Z" finished-at="2018-05-12T14:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pega.ui.unittest.headless.UserLogin -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

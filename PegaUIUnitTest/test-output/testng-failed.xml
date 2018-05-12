@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="10" name="Command line test(failed)">
+    <classes>
+      <class name="pega.ui.unittest.headless.UserLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="successfulLoginLogout"/>
+        </methods>
+      </class> <!-- pega.ui.unittest.headless.UserLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
